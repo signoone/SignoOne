@@ -253,8 +253,10 @@ crontab -e
 
 Add:
 ```
-*/5 * * * * docker exec nextcloud-app-1 php -f /var/www/html/cron.php
+*/5 * * * * /usr/bin/docker exec -u www-data nextcloud-app-1 php -f /var/www/html/cron.php
 ```
+
+> ⚠️ Must use full `/usr/bin/docker` path — cron doesn't load your PATH so plain `docker` won't be found. Must include `-u www-data` — cron.php must run as the user who owns the Nextcloud files (uid 33).
 
 Then in Nextcloud admin UI:
 **Settings → Administration → Basic Settings → Background Jobs → select Cron**
