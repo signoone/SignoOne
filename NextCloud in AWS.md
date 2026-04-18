@@ -10,7 +10,7 @@
 - **Cache/Locking:** Redis
 - **Reverse Proxy + SSL:** Caddy (auto SSL via Let's Encrypt)
 - **DNS:** Cloudflare (DNS only mode)
-- **Domain:** nc.signo.one (example — replace with yours)
+- **Domain:** cloud.yourdomain.com (example — replace with yours)
 
 ---
 
