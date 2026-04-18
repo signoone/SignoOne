@@ -220,6 +220,8 @@ Wait for: `Nextcloud was successfully installed` and `Apache configured -- resum
 4. **Speed → Optimization** → Disable **Auto Minify** (JS/CSS/HTML)
 
 ---
+That's it.
+Go to `https://cloud.yourdomain.com` — you should see Nextcloud fully running.
 
 ## Part 9: Post-Installation Fixes
 
