@@ -237,7 +237,7 @@ docker exec -u www-data nextcloud-app-1 php occ config:system:set maintenance_wi
 
 **Default phone region:**
 ```bash
-docker exec -u www-data nextcloud-app-1 php occ config:system:set default_phone_region --value="AE"
+docker exec -u www-data nextcloud-app-1 php occ config:system:set default_phone_region --value="US"
 ```
 
 **Disable Richdocuments (Nextcloud Office) if not using Collabora:**
