@@ -91,8 +91,6 @@ mkdir ~/nextcloud && cd ~/nextcloud
 ---
 
 ## Part 5: docker-compose.yml
-Replace all the CHANGE_THIS_* values before saving. Use strong passwords.
-Replace cloud.yourdomain.com with your actual domain.
 
 ```bash
 nano ~/nextcloud/docker-compose.yml
@@ -161,7 +159,7 @@ volumes:
   caddy_config:
 ```
 
-> Replace all `CHANGE_THIS_*` and `nc.yourdomain.com` with your actual values before saving.
+> Replace all `CHANGE_THIS_*` and `cloud.yourdomain.com` with your actual values before saving.
 
 **Why `TRUSTED_PROXIES=172.18.0.0/16`:**
 Docker assigns containers IPs in this range internally. Nextcloud needs to trust Caddy's forwarded headers (real client IP, HTTPS protocol). Without this you get login redirect loops and "Forwarded for headers" security errors.
@@ -175,7 +173,7 @@ nano ~/nextcloud/Caddyfile
 ```
 
 ```
-nc.yourdomain.com {
+cloud.yourdomain.com {
     reverse_proxy app:80
 
     header {
