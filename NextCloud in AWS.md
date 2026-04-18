@@ -129,12 +129,12 @@ services:
       - REDIS_HOST=redis
       - NEXTCLOUD_ADMIN_USER=CHANGE_THIS_ADMIN
       - NEXTCLOUD_ADMIN_PASSWORD=CHANGE_THIS_ADMIN_PASS
-      - NEXTCLOUD_TRUSTED_DOMAINS=nc.yourdomain.com
+      - NEXTCLOUD_TRUSTED_DOMAINS=cloud.yourdomain.com
       - APACHE_DISABLE_REWRITE_IP=1
       - TRUSTED_PROXIES=172.18.0.0/16
       - OVERWRITEPROTOCOL=https
-      - OVERWRITECLIURL=https://nc.yourdomain.com
-      - OVERWRITEHOST=nc.yourdomain.com
+      - OVERWRITECLIURL=https://cloud.yourdomain.com
+      - OVERWRITEHOST=cloud.yourdomain.com
     depends_on:
       - db
       - redis
