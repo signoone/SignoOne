@@ -91,6 +91,8 @@ mkdir ~/nextcloud && cd ~/nextcloud
 ---
 
 ## Part 5: docker-compose.yml
+Replace all the CHANGE_THIS_* values before saving. Use strong passwords.
+Replace cloud.yourdomain.com with your actual domain.
 
 ```bash
 nano ~/nextcloud/docker-compose.yml
