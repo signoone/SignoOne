@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 **File:** `.tmux.conf`  
 **Shell:** Intended for Linux environments with `xclip` available (X11).
 
