@@ -240,8 +240,6 @@ Watch first-boot logs (takes 2-3 mins):
 ```bash
 docker compose logs -f app
 
-That's it.
-Go to `https://cloud.yourdomain.com` — you should see Nextcloud fully running.
 ```
  
 Wait for:
@@ -249,7 +247,9 @@ Wait for:
 Nextcloud was successfully installed
 Apache configured -- resuming normal operations
 ```
- 
+---
+ That's it.
+Go to `https://cloud.yourdomain.com` — you should see Nextcloud fully running.
 ---
  
 ## Part 8: Enable Cloudflare Proxy
