@@ -13,7 +13,7 @@
 
 ---
 
-## Full Configuration (Copy-Paste Ready)
+## Full Configuration
 Copy and Paste in your Home Directory and name it as `.tmux.conf`  
 
 ```bash
