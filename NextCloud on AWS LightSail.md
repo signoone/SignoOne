@@ -248,7 +248,7 @@ Nextcloud was successfully installed
 Apache configured -- resuming normal operations
 ```
 
-That's it.
+> That's it.
 Go to `https://cloud.yourdomain.com` — you should see Nextcloud fully running.
 ---
  
