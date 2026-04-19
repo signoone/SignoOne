@@ -1,5 +1,7 @@
 # tmux Configuration Documentation
+
 <img width="305" height="80" alt="image" src="https://github.com/user-attachments/assets/ed5690be-36ac-478e-9381-310f94d02129" />
+
 
 
 **File:** `.tmux.conf`  
