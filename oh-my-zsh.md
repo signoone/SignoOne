@@ -197,60 +197,6 @@ Apply after changing theme:
 source ~/.zshrc
 ```
 
----
-
-## Tmux Clipboard Fix
-
-By default, text selected inside a tmux session goes to tmux's internal buffer — not your system clipboard. You can't paste it in a browser.
-
-### Quick Fix (No Config)
-Hold `Shift` while click-dragging to select text. Bypasses tmux and uses system clipboard directly.
-
-### Permanent Fix
-
-First, check your session type:
-
-```bash
-echo $XDG_SESSION_TYPE
-```
-
-**If X11:**
-```bash
-sudo apt install xclip -y
-```
-
-**If Wayland:**
-```bash
-sudo apt install wl-clipboard -y
-```
-
-Then edit your tmux config:
-
-```bash
-nano ~/.tmux.conf
-```
-
-**For X11 — add:**
-```bash
-set -g mouse on
-bind -T copy-mode-vi y send-keys -X copy-pipe-and-cancel "xclip -in -selection clipboard"
-bind -T copy-mode-vi MouseDragEnd1Pane send-keys -X copy-pipe-and-cancel "xclip -in -selection clipboard"
-```
-
-**For Wayland — add:**
-```bash
-set -g mouse on
-bind -T copy-mode-vi y send-keys -X copy-pipe-and-cancel "wl-copy"
-bind -T copy-mode-vi MouseDragEnd1Pane send-keys -X copy-pipe-and-cancel "wl-copy"
-```
-
-Reload tmux config:
-
-```bash
-tmux source-file ~/.tmux.conf
-```
-
----
 
 ## Quick Reference
 
