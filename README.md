@@ -1,4 +1,5 @@
-<img width="473" height="442" alt="signoone_logo (Edited)" src="https://github.com/user-attachments/assets/f6d8c167-36f8-44ce-9feb-3ca984aec13f" />
+<img width="300" height="300" alt="signoone_logo" src="https://github.com/user-attachments/assets/33023899-ba91-4787-ad1b-d3ffef40d172" />
+
 
 *I build things, break things, and document everything. signo.one is where the marks are kept.*
 
