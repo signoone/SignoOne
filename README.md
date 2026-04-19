@@ -1,4 +1,5 @@
-<img width="473" height="442" alt="signoone_logo (Edited) (Copy)" src="https://github.com/user-attachments/assets/779fce8c-ccf2-4b9e-a406-8e764bdd9b45" />
+<img width="300" height="300" alt="signoone_logo (1)" src="https://github.com/user-attachments/assets/aa8d6a64-e847-4938-b8b0-657ccd04d33b" />
+
 
 
 
