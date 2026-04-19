@@ -1,4 +1,4 @@
-# Dual Boot: Windows + Ubuntu on Separate SSDs | Guide 2026
+# Dual Boot: Windows + Ubuntu on Separate SSDs Guide 2026
 > Two separate SSDs. Windows on Drive 1. Ubuntu on Drive 2. Independent bootloaders. Clean setup.
 
 ---
