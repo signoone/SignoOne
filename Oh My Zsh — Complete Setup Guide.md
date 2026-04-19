@@ -1,4 +1,6 @@
 # Oh My Zsh — Complete Setup Guide
+<img width="500" height="304" alt="image" src="https://github.com/user-attachments/assets/2f72b657-2add-4118-8548-420c9725388f" />
+
 > Documented from a real Ubuntu installation session
 
 ---
