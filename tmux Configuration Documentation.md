@@ -6,7 +6,7 @@
 ---
 
 ## Full Configuration (Copy-Paste Ready)
-Copy and Paste in your Home Directory and name it as .tmux.conf`  
+Copy and Paste in your Home Directory and name it as `.tmux.conf`  
 
 ```bash
 set -g mouse on
