@@ -1,7 +1,8 @@
 # Nextcloud + Collabora Office Deployment
 ### AWS Lightsail + Docker + Cloudflare
 > Documented from a real deployment. Everything here was tested and confirmed working.
-<img width="1200" height="700" alt="image" src="https://github.com/user-attachments/assets/f60adfd4-194f-44b4-8972-529d0ffbe732" />
+<img width="800" height="200" alt="image" src="https://github.com/user-attachments/assets/a127c89d-e851-4501-89bd-9eac6317d87e" />
+
 
  
 ---
