@@ -43,7 +43,7 @@ In the instance Networking tab, set these IPv4 rules:
 ## Part 2: Cloudflare DNS
 
 1. Cloudflare → your domain → **DNS → Records**
-2. Add A record:
+2. Add **A** record:
    - **Name:** `cloud` (or whatever subdomain)
    - **IPv4:** Your Lightsail static IP
    - **Proxy:** 🔴 Grey cloud (DNS only) — NOT proxied yet
