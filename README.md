@@ -3,7 +3,7 @@
 *I build things, break things, and document everything. signo.one is where the marks are kept.*
 
 
-# Hi there 👋 
+# hello world 👋 
 
 Self-hosting enthusiast. Linux tinkerer. I document what I build so others don't have to figure it out the hard way.
 
