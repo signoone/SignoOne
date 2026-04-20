@@ -91,7 +91,6 @@ Starting VMware services:
 Unable to start services
 ```
 
-> 📸 Screenshot: `vmware-modconfig-failed.png`
 
 **What this means:** `vmmon` (Virtual machine monitor) and `vmnet` (Virtual ethernet) modules compiled but failed to load at runtime.
 
@@ -121,7 +120,6 @@ mokutil --sb-state
 SecureBoot enabled
 ```
 
-> 📸 Screenshot: `secureboot-enabled-modprobe-rejected.png`
 
 **Confirmed root cause:** Secure Boot is active. It rejects unsigned kernel modules. VMware's `vmmon` and `vmnet` modules are unsigned, so the kernel refuses to load them.
 
