@@ -1,7 +1,7 @@
 # VMware Workstation 25H2u1 — Ubuntu Installation Guide
 **Documented from live troubleshooting session**  
 File: `VMware-Workstation-Full-25H2u1-25219725.x86_64.bundle`  
-Download: [VMware Workstation](https://www.vmware.com/products/desktop-hypervisor.html)  
+Download: [VMware Workstation for Linux](https://www.vmware.com/products/desktop-hypervisor.html)  
 OS: Ubuntu (VMware Workstation host)
 
 ---
