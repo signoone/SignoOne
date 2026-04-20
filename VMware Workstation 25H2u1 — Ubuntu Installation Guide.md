@@ -61,6 +61,8 @@ Please make sure that the kernel module 'vmmon' is loaded.
 ```
 
 > 📸 Screenshot: `error-vmmon-not-loaded.png`
+> <img width="609" height="529" alt="Screenshot From 2026-04-18 16-51-06" src="https://github.com/user-attachments/assets/91ac9fa3-aa1f-4278-8559-3dc5be1b87e6" />
+
 
 **What this means:** VMware installed correctly, but its kernel modules (`vmmon`, `vmnet`) are either not compiled or not loaded.
 
