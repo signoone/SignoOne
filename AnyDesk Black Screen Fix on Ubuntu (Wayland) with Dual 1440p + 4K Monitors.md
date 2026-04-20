@@ -1,5 +1,5 @@
 # AnyDesk Black Screen Fix on Ubuntu (Wayland) with Dual 1440p + 4K Monitors
-<img width="500" height="350" alt="image" src="https://github.com/user-attachments/assets/6ef73495-fe2a-4b32-a4f1-058f4b354f60" />
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/6ef73495-fe2a-4b32-a4f1-058f4b354f60" />
 
 
 ## Problem
