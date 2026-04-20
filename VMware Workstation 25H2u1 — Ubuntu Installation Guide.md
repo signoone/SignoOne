@@ -1,7 +1,7 @@
 # VMware Workstation 25H2u1 — Ubuntu Installation Guide
 **Documented from live troubleshooting session**  
 File: `VMware-Workstation-Full-25H2u1-25219725.x86_64.bundle`
-Download: https://support.broadcom.com/group/ecx/free-downloads
+`Download`: https://support.broadcom.com/group/ecx/free-downloads
 OS: Ubuntu (VMware Workstation host)
 
 ---
