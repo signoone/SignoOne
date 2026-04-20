@@ -74,7 +74,6 @@ Change it to:
 Exec=env GDK_BACKEND=x11 /usr/bin/anydesk %u
 ```
 
-> ⚠️ **Critical:** Do NOT write `Exec=Exec=...` — only one `Exec=` prefix. Double `Exec=` breaks the desktop entry and AnyDesk will disappear from the app launcher.
 
 Save the file (`Ctrl+X` → `Y` → Enter).
 
