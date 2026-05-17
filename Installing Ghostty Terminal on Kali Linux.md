@@ -19,18 +19,16 @@ Check the required Zig version first (do this after cloning in step 2):
 cat ~/ghostty/build.zig.zon | grep -i minimum
 ```
 
-Download and install that exact version from [ziglang.org/download](https://ziglang.org/download/):
+Download and install from [ziglang.org/download](https://ziglang.org/download/):
 
 ```bash
 cd ~
-wget https://ziglang.org/download/<VERSION>/zig-x86_64-linux-<VERSION>.tar.xz
-tar -xf zig-x86_64-linux-<VERSION>.tar.xz
-sudo mv zig-x86_64-linux-<VERSION> /opt/zig
+wget https://ziglang.org/download/0.15.2/zig-x86_64-linux-0.15.2.tar.xz
+tar -xf zig-x86_64-linux-0.15.2.tar.xz
+sudo mv zig-x86_64-linux-0.15.2 /opt/zig
 sudo ln -s /opt/zig/zig /usr/local/bin/zig
-zig version  # confirm correct version
+zig version
 ```
-
-> Replace `<VERSION>` with what `build.zig.zon` reports (e.g. `0.15.2`)
 
 ---
 
