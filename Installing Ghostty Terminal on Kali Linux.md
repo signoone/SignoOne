@@ -65,6 +65,8 @@ sudo zig build -p /usr -Doptimize=ReleaseFast
 ghostty
 ```
 
+> Ghostty will not appear in the app launcher menu immediately after install. Log out and log back in for it to show up.
+
 ---
 
 ## 6. Font Configuration (optional)
