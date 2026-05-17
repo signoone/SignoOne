@@ -93,6 +93,50 @@ fc-list | grep -i "font name"
 
 ---
 
+## 7. Themes
+
+**Browse built-in themes (interactive preview):**
+
+```bash
+ghostty +list-themes
+```
+
+- Use arrow keys to scroll, `/` to search, `c` to copy theme name, `Ctrl+C` to exit.
+
+**Apply a theme:**
+
+```bash
+nano ~/.config/ghostty/config
+```
+
+Add:
+
+```
+theme = Catppuccin Frappe
+```
+
+> Use quotes if the theme name has spaces: `theme = "Monokai Classic"`
+
+Reload config: `Shift+Ctrl+,`
+
+**Separate light/dark themes:**
+
+```
+theme = dark:Catppuccin Frappe,light:Catppuccin Latte
+```
+
+Ghostty switches automatically based on system appearance.
+
+**Custom themes:**
+
+Place a custom theme file in `~/.config/ghostty/themes/` and reference it by filename:
+
+```
+theme = mytheme
+```
+
+---
+
 ## Key Shortcuts
 
 | Action | Shortcut |
